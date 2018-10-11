@@ -28,8 +28,9 @@ p, form {
 
 span {
     text-align: center;
+    color: #ff0094;
     font-family: 'Lato', sans-serif;
-    font-size: 13px;
+    font-size: 18px;
     display: block;
     margin-top: 10px;
     margin-bottom: 35px;
