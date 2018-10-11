@@ -23,7 +23,7 @@
                questions and let us be your Sorting Hat!</p> 
             
         <form action="index_get.php" method="post">
-            <p>First 3 letters of your name:</p> <input type="text" name="name"><br>
+            <p>First 3 letters of your name:</p> <input type="text" name="name"><br/>
             
             <p>What's your favorite color? (Choose one.)</p>
                 <input type="radio" name="blue" value="blue">Blue<br/>

@@ -12,7 +12,7 @@ img {
 }
 
 
-p, radio, checkbox {
+p, form {
     font-family: 'Lato', sans-serif;
     color: #332b30;
     font-size: 15px;
