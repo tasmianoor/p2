@@ -18,6 +18,8 @@
         
         <div class="container">
             <h1>What's your Hogwarts house?</h1>
+            
+            <img src="images/form_image.png" alt="Hogwarts shield">
 
             <p>Which Hogwarts house will you be sorted into? Gryffindor, Hufflepuff, Ravenclaw or Slytherin? Answer these 
                questions and let us be your Sorting Hat!</p> 

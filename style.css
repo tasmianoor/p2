@@ -1,6 +1,6 @@
 h1, h2 {
     font-family: 'Playfair Display', serif;
-    color: #ff0094;
+    color: brown;
     text-align: center;
 }
 
@@ -14,7 +14,7 @@ img {
 
 p, form {
     font-family: 'Lato', sans-serif;
-    color: #332b30;
+    color: black;
     font-size: 15px;
 }
 
