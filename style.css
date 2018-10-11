@@ -1,0 +1,36 @@
+h1, h2 {
+    font-family: 'Playfair Display', serif;
+    color: #ff0094;
+    text-align: center;
+}
+
+
+img {
+    width: 50%;
+    display: block;
+    margin: auto;
+}
+
+
+p {
+    font-family: 'Lato', sans-serif;
+    color: #332b30;
+    font-size: 15px;
+}
+
+.container {
+    width: 40%;
+    min-width: 600px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+span {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 13px;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 35px;
+}

@@ -37,6 +37,7 @@
                 <input type="checkbox" name="trait[]" id="green" value="new" />I tend to be wary around new people, so don't make new friends often.<br/>
                 <input type="checkbox" name="trait[]" id="yellow" value="friends" />I find myself becoming friends with people who can help me to succeed.<br/>
             
+
             <input type="submit" name="formSubmit" value="Submit" />
 
             
