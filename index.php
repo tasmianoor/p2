@@ -23,13 +23,13 @@
                questions and let us be your Sorting Hat!</p> 
             
         <form action="index_get.php" method="post">
-            First 3 letters of your name: <input type="text" name="name"><br>
+            <span>First 3 letters of your name:</span> <input type="text" name="name"><br>
             
             <p>What's your favorite color? (Choose one.)</p>
-                <input type="radio" name="blue" value="blue">Blue
-                <input type="radio" name="green" value="green">Green
-                <input type="radio" name="red" value="red">Red
-                <input type="radio" name="yellow" value="yellow">Yellow
+                <input type="radio" name="blue" value="blue">Blue<br/>
+                <input type="radio" name="green" value="green">Green<br/>
+                <input type="radio" name="red" value="red">Red<br/>
+                <input type="radio" name="yellow" value="yellow">Yellow<br/>
             
             <p>Choose up to three from the following characteristics that may describe you:</p>
                 <input type="checkbox" name="trait[]" id="blue" value="social" />I love surrounding myself with people – the more friends I have, the better!<br/>
