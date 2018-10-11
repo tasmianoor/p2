@@ -38,7 +38,7 @@
                 <input type="checkbox" name="trait[]" id="yellow" value="friends" />I find myself becoming friends with people who can help me to succeed.<br/>
             
 
-            <input type="submit" name="formSubmit" value="Submit" />
+            <span><input type="submit" name="formSubmit" value="Submit" /></span>
 
             
             
