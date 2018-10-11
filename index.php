@@ -32,10 +32,10 @@
                 <input type="radio" name="yellow" value="yellow">Yellow
             
             <p>Choose up to three from the following characteristics that may describe you:</p>
-                <input type="checkbox" name="friendly" value="Blue" />I love surrounding myself with people – the more friends I have, the better!<br/>
-                <input type="checkbox" name="skeptic" value="Red"/>I have a few very close friends that I would trust with my life.<br/>
-                <input type="checkbox" name="NoNewFriends" value="Green" />I tend to be wary around new people, so don't make new friends often.<br/>
-                <input type="checkbox" name="some friends" value="Yellow" />I find myself becoming friends with people who can help me to succeed.<br/>
+                <input type="checkbox" name="trait[]" id="blue" value="social" />I love surrounding myself with people – the more friends I have, the better!<br/>
+                <input type="checkbox" name="trait[]" id="red" value="trust"/>I have a few very close friends that I would trust with my life.<br/>
+                <input type="checkbox" name="trait[]" id="green" value="new" />I tend to be wary around new people, so don't make new friends often.<br/>
+                <input type="checkbox" name="trait[]" id="yellow" value="friends" />I find myself becoming friends with people who can help me to succeed.<br/>
             
             <input type="submit" name="formSubmit" value="Submit" />
 
