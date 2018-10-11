@@ -18,7 +18,6 @@
         
         <div class="container">
             <h1>What's your Hogwarts house?</h1>
-                <img src="images/photo.png" alt="Picture of Tasmia Noor">
 
             <p>Which Hogwarts house will you be sorted into? Gryffindor, Hufflepuff, Ravenclaw or Slytherin? Answer these 
                questions and let us be your Sorting Hat!</p> 
@@ -26,13 +25,19 @@
         <form action="index_get.php" method="post">
             First 3 letters of your name: <input type="text" name="name"><br>
             
-            Select your favorite color:
+            <p>What's your favorite color? (Choose one.)</p>
                 <input type="radio" name="blue" value="blue">Blue
                 <input type="radio" name="green" value="green">Green
                 <input type="radio" name="red" value="red">Red
                 <input type="radio" name="yellow" value="yellow">Yellow
             
+            <p>Choose up to three from the following characteristics that may describe you:</p>
             
             <input type="submit">
             
         </form>
+        </div>
+    </body>
+</html>
+            
+        
