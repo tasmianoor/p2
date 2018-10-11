@@ -1,6 +1,6 @@
 # Project 2
 + By: *Tasmia Noor*
-+ Production URL: <http://p2.yourdomain.com>
++ Production URL: <http://p2.tasmia.me>
 
 ## Outside resources
 *your list of outside resources go here*
