@@ -30,11 +30,7 @@
                 <input type="radio" name="blue" value="blue">Blue
                 <input type="radio" name="green" value="green">Green
                 <input type="radio" name="red" value="red">Red
-                <input type="radio" name="red" value="red">Red
-
-            
-
-            
+                <input type="radio" name="yellow" value="yellow">Yellow
             
             
             <input type="submit">
