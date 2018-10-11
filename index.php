@@ -21,8 +21,8 @@
             
             <img src="images/form_image.png" alt="Hogwarts shield">
 
-            <p>Which Hogwarts house will you be sorted into? Gryffindor, Hufflepuff, Ravenclaw or Slytherin? Answer these 
-               questions and let us be your Sorting Hat!</p> 
+            <h5>Which Hogwarts house will you be sorted into? Gryffindor, Hufflepuff, Ravenclaw or Slytherin? Answer these 
+               questions and let us be your Sorting Hat!</h5> 
             
         <form action="index_get.php" method="post">
             <p>First 3 letters of your name:</p> <input type="text" name="name"><br/>
