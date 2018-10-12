@@ -28,50 +28,55 @@
 $myarray = $_POST;
 
  foreach ($myarray as $key => $value) {
-  echo '<p>'.$key.'</p>';
+  //echo '<p>'.$key.'</p>';
   
   foreach($value as $k => $v)
   {
-  echo '<p>'.$k.'</p>';
-  echo '<p>'.$v.'</p>';
-  echo '<hr />';
+  //echo '<p>'.$k.'</p>';
+ // echo '<p>'.$v.'</p>';
+ // echo '<hr />';
   }
 }
 
-print_r($_POST["trait"]);
 
-//if (($_POST["trait"][0] == 'social') && ($_POST["trait"][1] == 'trust') && ($_POST["trait"][2] == 'new')) {
-  //echo 'You indicated that, although you like being surrounded with people, you are not quick to make friends. That is because you already have a small group of friends you trust. You belong in Ravenclaw!';
-
-//if (($_POST["trait"][0] == 'social') && ($_POST["trait"][1] == 'trust') && ($_POST["trait"][3] == 'friends')) {
-  //echo 'You indicated that you like being surrounded with people. You already have a small group of friends you trust. That is because you have been careful to keep company with those who help you succeed. You belong in Hufflepuff!';
-
-//if (($_POST["trait"][0] == 'social') && ($_POST["trait"][2] == 'new') && ($_POST["trait"][3] == 'friends')) {
-  //echo 'You indicated that, although you like being surrounded with people, you are not quick to make friends. That is because you are careful to keep company with those who help you succeed. You belong in Slytherin!'; 
-
-//if (($_POST["trait"][0] == 'social') && ($_POST["trait"][1] == 'trust')) {
-  //echo 'You indicated that, although you already have a small group of friends you trust, you like being surrounded with people. You belong in Gryffindor!';
-
-//if (($_POST["trait"][0] == 'social') && ($_POST["trait"][3] == 'friends')) {
- //echo 'You indicated that you like being surrounded with people. That is because you want to be in company with those who help you succeed. You belong in Gryffindor!';
-
-//if (($_POST["trait"][0] == 'social') && ($_POST["trait"][2] == 'new')) {
-  //echo 'You indicated that, although you like being surrounded with people, you are not necessarily jumping to make friends hastily. You belong in Ravenclaw!'; 
-
-
-//if (($_POST["trait"][1] == 'trust') && ($_POST["trait"][2] == 'new')) {
-  //echo 'You indicated that you are not necessarily jumping to make friends hastily. That is because you already have a small group of friends you trust. You belong in Ravenclaw!';
-
-//if (($_POST["trait"][1] == 'trust') && ($_POST["trait"][3] == 'friends')) {
-  //echo 'You indicated that you already have a small group of friends you trust. That is because you have been careful to keep company with those who help you succeed. You belong in Hufflepuff!';
-
-//if (($_POST["trait"][2] == 'new') && ($_POST["trait"][3] == 'friends')) {
-  //echo 'You indicated that you are not necessarily jumping to make friends hastily. That has because you are careful to keep company with those who help you succeed. You belong in Slytherin!';
-
-
-if (($_POST["trait"][0] == 'social') && ($_POST["trait"][1] == 'trust') && ($_POST["trait"][2] == 'new')) {
-  echo 'you selected one & two';
+if (($_POST["trait1"] == 'social') && ($_POST["trait2"] == 'trust') && ($_POST["trait3"] == 'new')) {
+  echo 'You indicated that, although you like being surrounded with people, you are not quick to make friends. That is because you already have a small group of friends you trust. You belong in Ravenclaw!';
 }
+
+elseif (($_POST["trait1"] == 'social') && ($_POST["trait2"] == 'trust') && ($_POST["trait4"] == 'friends')) {
+  echo 'You indicated that you like being surrounded with people. You already have a small group of friends you trust. That is because you have been careful to keep company with those who help you succeed. You belong in Hufflepuff!';
+}
+
+elseif (($_POST["trait1"] == 'social') && ($_POST["trait3"] == 'new') && ($_POST["trait4"] == 'friends')) {
+  echo 'You indicated that, although you like being surrounded with people, you are not quick to make friends. That is because you are careful to keep company with those who help you succeed. You belong in Slytherin!'; 
+}
+
+elseif (($_POST["trait1"] == 'social') && ($_POST["trait2"] == 'trust')) {
+  echo 'You indicated that, although you already have a small group of friends you trust, you like being surrounded with people. You belong in Gryffindor!';
+}
+
+elseif (($_POST["trait1"] == 'social') && ($_POST["trait4"] == 'friends')) {
+ echo 'You indicated that you like being surrounded with people. That is because you want to be in company with those who help you succeed. You belong in Gryffindor!';
+}
+
+elseif (($_POST["trait1"] == 'social') && ($_POST["trait3"]== 'new')) {
+  echo 'You indicated that, although you like being surrounded with people, you are not necessarily jumping to make friends hastily. You belong in Ravenclaw!'; 
+}
+
+
+elseif (($_POST["trait2"] == 'trust') && ($_POST["trait3"]== 'new')) {
+  echo 'You indicated that you are not necessarily jumping to make friends hastily. That is because you already have a small group of friends you trust. You belong in Ravenclaw!';
+}
+
+elseif (($_POST["trait2"] == 'trust') && ($_POST["trait4"] == 'friends')) {
+  echo 'You indicated that you already have a small group of friends you trust. That is because you have been careful to keep company with those who help you succeed. You belong in Hufflepuff!';
+}
+
+elseif (($_POST["trait3"] == 'new') && ($_POST["trait4"] == 'friends')) {
+  echo 'You indicated that you are not necessarily jumping to make friends hastily. That has because you are careful to keep company with those who help you succeed. You belong in Slytherin!';
+
+}
+
 
 
 //print_r($myarray);

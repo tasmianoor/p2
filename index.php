@@ -12,6 +12,34 @@
         <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
     
+<SCRIPT LANGUAGE="javascript">
+
+function KeepCount() {
+
+var NewCount = 0
+
+if (document.house.trait1.checked)
+{NewCount = NewCount + 1}
+
+if (document.house.trait2.checked)
+{NewCount = NewCount + 1}
+
+if (document.house.trait3.checked)
+{NewCount = NewCount + 1}
+
+if (document.house.trait4.checked)
+{NewCount = NewCount + 1}
+
+
+
+if (NewCount == 4)
+{
+alert('Pick Just Three Please')
+document.house; return false;
+}
+} 
+</SCRIPT>
+
     </head>
     
     <body>
@@ -24,8 +52,8 @@
             <h4>Which Hogwarts house will you be sorted into? Gryffindor, Hufflepuff, Ravenclaw or Slytherin? Answer these 
                questions and let us be your Sorting Hat!</h4> 
             
-        <form action="index_get.php" method="post">
-            <p>First 3 letters of your name:</p> <input type="text" name="name"><br/>
+        <form action="index_get.php" method="post" name="house">
+            <p>First 3 letters of your name:</p> <input type="text" name="name" maxlength="3"><br/>
             
             <p>What's your favorite color? (Choose one.)</p>
                 <input type="radio" name="favcolor" value="blue">Blue<br/>
@@ -34,10 +62,10 @@
                 <input type="radio" name="favcolor" value="yellow">Yellow<br/>
             
             <p>Choose up to three from the following characteristics that may describe you:</p>
-                <input type="checkbox" name="trait[]" id="blue" value="social" />I love surrounding myself with people – the more friends I have, the better!<br/>
-                <input type="checkbox" name="trait[]" id="red" value="trust"/>I have a few very close friends that I would trust with my life.<br/>
-                <input type="checkbox" name="trait[]" id="green" value="new" />I tend to be wary around new people, so don't make new friends often.<br/>
-                <input type="checkbox" name="trait[]" id="yellow" value="friends" />I find myself becoming friends with people who can help me to succeed.<br/>
+                <input type="checkbox" name="trait1" id="blue" value="social" onClick="return KeepCount()" />I love surrounding myself with people – the more friends I have, the better!<br/>
+                <input type="checkbox" name="trait2" id="red" value="trust" onClick="return KeepCount()" />I have a few very close friends that I would trust with my life.<br/>
+                <input type="checkbox" name="trait3" id="green" value="new" onClick="return KeepCount()" />I tend to be wary around new people, so don't make new friends often.<br/>
+                <input type="checkbox" name="trait4" id="yellow" value="friends" onClick="return KeepCount()" />I find myself becoming friends with people who can help me to succeed.<br/>
             
 
             <span><input type="submit" name="formSubmit" value="Show me my house!" /></span>
