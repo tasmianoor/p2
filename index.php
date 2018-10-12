@@ -34,7 +34,7 @@ if (document.house.trait4.checked)
 
 if (NewCount == 4)
 {
-alert('Pick Just Three Please')
+alert('Please choose no more than 3. Thanks!')
 document.house; return false;
 }
 } 

@@ -19,7 +19,7 @@
 
 <h1>Welcome to Hogwarts, <?php echo $_POST["name"]; ?>ius!</h1>
 
-<p>The Sorting Hat has considered your favorite house color, <?php echo $_POST["favcolor"]; ?>, but your heart determines your house! </p>
+<h3>The Sorting Hat has considered your favorite house color, <?php echo $_POST["favcolor"]; ?>, but your heart determines your house! </h3>
 
 <?php
 
