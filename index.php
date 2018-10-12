@@ -28,10 +28,10 @@
             <p>First 3 letters of your name:</p> <input type="text" name="name"><br/>
             
             <p>What's your favorite color? (Choose one.)</p>
-                <input type="radio" name="blue" value="blue">Blue<br/>
-                <input type="radio" name="green" value="green">Green<br/>
-                <input type="radio" name="red" value="red">Red<br/>
-                <input type="radio" name="yellow" value="yellow">Yellow<br/>
+                <input type="radio" name="favcolor" value="blue">Blue<br/>
+                <input type="radio" name="favcolor" value="green">Green<br/>
+                <input type="radio" name="favcolor" value="red">Red<br/>
+                <input type="radio" name="favcolor" value="yellow">Yellow<br/>
             
             <p>Choose up to three from the following characteristics that may describe you:</p>
                 <input type="checkbox" name="trait[]" id="blue" value="social" />I love surrounding myself with people – the more friends I have, the better!<br/>
@@ -40,7 +40,7 @@
                 <input type="checkbox" name="trait[]" id="yellow" value="friends" />I find myself becoming friends with people who can help me to succeed.<br/>
             
 
-            <span><input type="submit" name="formSubmit" value="Submit" /></span>
+            <span><input type="submit" name="formSubmit" value="Show me my house!" /></span>
 
             
         </form>
